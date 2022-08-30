@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* html -> id
+    css -> #
+
+    html -> class
+    css -> .
+
+*/
+
+
+body{
+    background-color: rgb(169, 238, 169);
+    font-family: sans-serif;  
+}
+
+
+h1{
+    color:rgb(27, 109, 27); ;
+}
+
+#principal{
+    text-align: center;
+    background: blueviolet ;
+}
+
+.basico{
+
+    color: blue;
+    font-weight:lighter;
+
+}
+
+.intermediario{
+
+    color: aquamarine;
+}
+    
+
+.avancado{
+
+    color: red;
+}
+    
+
+h2{
+
+    color:rgb(2, 43, 2);
+}
+
+
+.destaque{
+
+    background-color: gold;
+}
+
+
+    

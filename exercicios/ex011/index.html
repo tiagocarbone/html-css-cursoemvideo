@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos ou mude o tamanho do navegador</p>
+    <!--Tamanho maximo sendo 1100 px carrego foto m ADAPTAR O TAMANHO DA IMAGEM COM O USUARIO
+    TEM QUE SER O MAIOR MAIS EMBAIXO E SOBE DIMINUINDO-->
+     
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="">
+      </picture>   
+
+      <h1>Reproduzindo audio</h1>
+      <p>Vamos aprender a reproduzir audios em html5 </p>
+      <audio src="midia/backwoods.mp3" controls  autoplay ></audio>
+      <!--Formatos  de audio que também podem ser usados: MP3, WAV, OGG 
+    ESSA FORMA DE ADICIONAR AUDIO E MEIO LIMITADA-->
+<P>OUTRA FORMA DE INSERIR AUDIO</P>
+
+<audio preload="metadata" controls loop >
+
+<!--Primeiro vai tentar carregar o primeiro source,ai dps vai tnetando ler os de baixo
+
+evitar arquivo WAV pq é pesado-->
+
+<source src="midia/blue-mood.mp3" type="audio/mpeg">  
+<source src="midia/guanacast-33.ogg" type="audio/ogg"> 
+<source src="midia/blue-mood.wav" type="audio/wav">
+</audio>
+
+<p>infelizmente seu navegador nao consegue reproduzir audio. <a href="midia/backwoods.mp3">Clique aqui</a> para baixar o mp3 </p>
+
+
+
+
+</body>
+</html>

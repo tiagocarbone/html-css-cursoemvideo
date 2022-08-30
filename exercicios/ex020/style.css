@@ -1,0 +1,38 @@
+@charset="UTF-8";
+
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkgreen;
+        }
+        a:hover{
+            text-decoration: none;
+            color: black;
+        }
+        a:active{
+            color: blue 
+        }
+        .especial{
+            background-color:lightgoldenrodyellow; 
+        }
+        .especial:hover{
+            background-color: aquamarine;
+        }
+        .especial::before{
+            content: ' → ';
+        }
+        .especial::after{
+            content:' [ link  ] ← ' ;
+            text-decoration:none;
+            font-weight: normal;
+            color: blueviolet;
+        }
+        a:hover::after{
+            color: black;
+        }

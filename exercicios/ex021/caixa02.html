@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: lightpink;
+            margin: 0;
+        }
+        
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(240, 189, 169);   
+            padding: 3px;
+            box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.322);
+            
+            /* Deslocamento horizontal -  
+               Deslocamento vertical
+               Espalhamento 
+               cor da sombra       */
+            
+
+               /* Inspecionar- nav- add box shadow */
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: inline;
+            margin-right: 30px;
+        }
+
+        nav >a:hover{
+            text-decoration: underline;  
+            color: aquamarine;   
+        }
+
+        main{
+            background-color: white ;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 30px 40px  ;
+            box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.288);
+
+            /* top-left, top-right, bottom-righ, bottom-left  */
+        }
+        article{
+            background-color:lightgray ;
+            padding: 5px;
+        }
+
+
+        article > aside {
+            background-color: rgba(179, 179, 179, 0.658);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 0.8em;
+            padding: 4px;
+            margin: 0px;
+        }
+
+       
+        footer > p {   
+            margin: 0px
+        }
+         
+        /* ele considerou o cursoemvideo um novo paragrafo ai zerei a margem dele  */
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>  
+        <nav>
+            <a class="link1" href="#">link</a>
+            <a class="link1" href="#">link</a>
+            <a class="link1" href="#">link</a>
+            <a class="link1" href="#">link</a>
+            <a class="link1" href="#">link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos" >
+            <p>Esportes   Politica    Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam obcaecati quibusdam adipisci natus officiis atque molestiae delectus, similique corrupti voluptas, dolores itaque possimus alias excepturi, eveniet ratione enim blanditiis iusto.</p>
+                    <aside>
+                        <p>Artigo escrito por jose da silva</p>
+                    </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>  
+    <!--Footer- rodapé
+        nav- 
+    
+    -->
+
+    <div id="bola" ></div>
+    
+</body>
+</html>
