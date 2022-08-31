@@ -40,8 +40,6 @@ header > h1{
 
 header > p{
     padding-bottom: 50px;
-    
-
 }
 
 header a, footer a{
@@ -104,6 +102,5 @@ footer{
     background-color: black;
     color: white;
     padding: 4px;
-    margin-top: 12px;
     text-align: center;
 }
