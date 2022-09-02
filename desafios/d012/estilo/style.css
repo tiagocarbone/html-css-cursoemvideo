@@ -15,6 +15,8 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
+   
+
 }
 
 html, body{
@@ -59,7 +61,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 section.normal{
